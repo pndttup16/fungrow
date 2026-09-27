@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Funngro | Work With Young India</title>
+
+    <meta name="description"
+          content="Connect with young India through Funngro. Discover flexible projects, brand campaigns, surveys, content and more.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #061b12;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 7%;
+            border-bottom: 1px solid #173c2d;
+            position: sticky;
+            top: 0;
+            background: #061b12;
+            z-index: 10;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+            color: #39df91;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #39df91;
+        }
+
+        .download {
+            background: #08bd68;
+            color: #061b12;
+            padding: 12px 22px;
+            border-radius: 30px;
+            font-weight: bold;
+        }
+
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            padding: 80px 7%;
+            background: radial-gradient(circle at top right, #123e29, #061b12 55%);
+        }
+
+        .hero-content {
+            max-width: 800px;
+        }
+
+        .tag {
+            color: #42dc96;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: clamp(45px, 7vw, 82px);
+            line-height: 1;
+            margin-bottom: 25px;
+        }
+
+        h1 span {
+            color: #39df91;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #c8d5ce;
+            max-width: 650px;
+            margin-bottom: 35px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #08bd68;
+            color: #061b12;
+            text-decoration: none;
+            padding: 16px 28px;
+            border-radius: 35px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: #39df91;
+            border: 1px solid #39df91;
+        }
+
+        section {
+            padding: 80px 7%;
+        }
+
+        .section-title {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .section-text {
+            color: #b9c9c0;
+            max-width: 700px;
+            margin-bottom: 40px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 22px;
+        }
+
+        .card {
+            background: #0c2a1d;
+            border: 1px solid #1c5038;
+            padding: 30px;
+            border-radius: 18px;
+        }
+
+        .card h3 {
+            color: #39df91;
+            margin-bottom: 12px;
+            font-size: 22px;
+        }
+
+        .card p {
+            color: #b9c9c0;
+        }
+
+        .cta {
+            text-align: center;
+            background: #0b281b;
+        }
+
+        .cta h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            padding: 35px 7%;
+            border-top: 1px solid #173c2d;
+            display: flex;
+            justify-content: space-between;
+            color: #9eafa6;
+        }
+
+        @media (max-width: 800px) {
+            nav a {
+                display: none;
+            }
+
+            .cards {
+                grid-template-columns: 1fr;
+            }
+
+            .hero {
+                padding-top: 60px;
+            }
+
+            footer {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Funngro</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">How It Works</a>
+        <a href="#work">Work Types</a>
+        <a class="download" href="#start">Get Started</a>
+    </nav>
+</header>
+
+
+<main>
+
+    <section class="hero">
+        <div class="hero-content">
+
+            <div class="tag">India's Youth • India's Brands</div>
+
+            <h1>
+                Connect with
+                <span>young India.</span>
+            </h1>
+
+            <p>
+                Build meaningful connections with young Indians through
+                campaigns, content, surveys, promotions and real-world
+                brand projects.
+            </p>
+
+            <a class="btn" href="#start">Get Started →</a>
+            <a class="btn btn-outline" href="#work">Explore Work</a>
+
+        </div>
+    </section>
+
+
+    <section id="work">
+
+        <div class="tag">What We Offer</div>
+
+        <h2 class="section-title">
+            Projects brands actually need.
+        </h2>
+
+        <p class="section-text">
+            Reach an engaged young audience and create authentic
+            connections through flexible digital and offline projects.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Promotion</h3>
+                <p>
+                    Create awareness for your products and campaigns
+                    through young and engaged audiences.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Content Creation</h3>
+                <p>
+                    Get fresh, relatable content created for today's
+                    digital-first generation.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Surveys & Research</h3>
+                <p>
+                    Understand what young consumers think, want and
+                    actually use.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>App Testing</h3>
+                <p>
+                    Get real feedback from young users before launching
+                    your digital product.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Influencer Campaigns</h3>
+                <p>
+                    Connect campaigns with creators who understand
+                    young Indian audiences.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Sales Support</h3>
+                <p>
+                    Build stronger customer connections with flexible
+                    project-based support.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="cta" id="start">
+
+        <div class="tag">Let's Build Together</div>
+
+        <h2>Have a project in mind?</h2>
+
+        <p class="section-text" style="margin-left:auto;margin-right:auto;">
+            Tell us what you need and discover how Funngro can help
+            your brand connect with young India.
+        </p>
+
+        <a class="btn" href="about.html">See How It Works →</a>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <strong>Funngro</strong>
+    <span>© 2026 Funngro Project</span>
+</footer>
+
+</body>
+</html>
